@@ -4,3 +4,7 @@
 
 1-15- More python and more git!
 
+1-16- Python loops/ lists/ changing strings, ect.
+
+
+
