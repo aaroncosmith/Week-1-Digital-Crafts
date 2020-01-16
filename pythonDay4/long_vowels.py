@@ -5,10 +5,10 @@ user_input = input("Please enter some words you'd like to give LOOOONG vowels to
 user_input = user_input.lower()
 
 #begin the conversion
-long_string = user_input.replace("a", "aaaaaa")
-long_string = long_string.replace("e", "eeeeee")
-long_string = long_string.replace("i", "iiiiiii")
-long_string = long_string.replace("o", "ooooooo")
-long_string = long_string.replace("u", "uuuuuuuu")
+long_string = user_input.replace("aa", "aaaaaa")
+long_string = long_string.replace("ee", "eeeeee")
+long_string = long_string.replace("ii", "iiiiiii")
+long_string = long_string.replace("oo", "ooooooo")
+long_string = long_string.replace("uu", "uuuuuuuu")
 
 print(long_string)
