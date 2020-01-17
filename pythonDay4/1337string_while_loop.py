@@ -7,14 +7,16 @@ leet_speak = "4361057"
 translation = ""
 
 # use two for loops to make this happen
-for index in range(len(string)):
+for i in range(len(string)):
+    # for each letter/index in the string
     add_to = ""
-    for inner_index in range(len(letters_replace)):
-        if string[index] == letters_replace[inner_index]:
-            add_to = str(leet_speak[inner_index])
+    for j in range(len(letters_replace)):
+        #loop through all the letters_replace
+        if string[i] == letters_replace[j]:
+            add_to = str(leet_speak[j])
             break
         else: 
-            add_to = string[index]
+            add_to = string[i]
     translation += add_to
 
 print(translation)
